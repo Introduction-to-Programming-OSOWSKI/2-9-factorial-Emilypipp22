@@ -4,3 +4,5 @@ def factorial(x):
     for i in range (1, x + 1):
         factorial = factorial * i
     return factorial
+
+print(factorial(5))
